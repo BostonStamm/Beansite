@@ -21,8 +21,8 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-link-color: #1b1717;
+  --nav-background-color: #0aa2cb;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -31,6 +31,7 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  background-color: darkslategrey;
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
@@ -60,6 +61,21 @@ header {
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
 }
+#under-construction {
+  padding: 0.5em;
+  text-align: center;
+  color: black;
+  background-color: rgb(195, 113, 13);
+}
+footer {
+  padding: 0.5em;
+  text-align: left;
+  color: black;
+  background-color: white;
+}
+
+
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
