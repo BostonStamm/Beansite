@@ -66,6 +66,7 @@ header {
   text-align: center;
   color: black;
   background-color: rgb(195, 113, 13);
+  border-top-style: dashed;
 }
 footer {
   padding: 0.5em;
